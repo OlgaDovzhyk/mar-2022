@@ -1,0 +1,78 @@
+html. body {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+ }
+
+ul, ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2, p, button {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    padding-top: 25vh;
+}
+
+.container_Sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid gray;
+    width: 27%;
+    height: 50vh;
+    padding: 0 1% 30px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 2;
+    padding: 0 80px;
+}
+
+.container_Sub .image_Box {
+    position: relative;
+    top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: #fff;
+    z-index: 1;
+    margin: 0 auto;
+}
+
+.image_Box .img {
+    position: absolute;
+ }
+
+h2 {
+    letter-spacing: 1px;
+    color: black;
+}
+
+p {
+    color: gray;
+    word-wrap: break-word;
+}
+
+.container button {
+    cursor: pointer;
+    margin: 0 auto;
+    width: 50%;
+    padding: 10px 0;
+    border: 1px solid black;
+}
