@@ -42,7 +42,8 @@ p {
 
 .container_Sub .image_Box {
     position: relative;
-    top: -50px;
+    transform: translateY(-60px);
+    /*top: -50px;*/
     display: flex;
     justify-content: center;
     align-items: center;
